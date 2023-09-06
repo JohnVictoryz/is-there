@@ -24,7 +24,7 @@ if check == False:
         print (ANSI_COLOR_RED + "Either the file/path doesnt exist or the program doesnt have the permission to read it" + ANSI_COLOR_RESET)
         fail = True
     if check2 == True:
-        print (ANSI_COLOR_CYAN + "The file/path: " + ANSI_COLOR_RESET + ANSI_COLOR_GREEN + filepath + ANSI_COLOR_RESET + ANSI_COLOR_CYAN + " exists :)" + ANSI_COLOR_RESET)
+        print (ANSI_COLOR_CYAN + "The file/folder: " + ANSI_COLOR_RESET + ANSI_COLOR_GREEN + filepath + ANSI_COLOR_RESET + ANSI_COLOR_CYAN + " exists :)" + ANSI_COLOR_RESET)
 if check == True:
     print (ANSI_COLOR_CYAN + "The file/folder: " + ANSI_COLOR_RESET + ANSI_COLOR_GREEN + filepath + ANSI_COLOR_RESET + ANSI_COLOR_CYAN + " exists :)" + ANSI_COLOR_RESET)
 
