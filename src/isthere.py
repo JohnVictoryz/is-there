@@ -43,6 +43,7 @@ if filepathchk == "-H" or filepathchk == "-h" or filepathchk == "--help" or file
           -Mf Manually create a file if the file doesn't exist
           -M Manually create a file or directory if it doesn't exist
           """)
+    exit()
 check = os.path.exists(filepathchk)
 
 # Some basic error handling
